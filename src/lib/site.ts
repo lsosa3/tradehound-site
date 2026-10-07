@@ -45,6 +45,8 @@ export interface Plan {
   price: number;
   tagline: string;
   seats: string;
+  /** Monthly price per seat beyond the included ones; omitted = upgrade to add seats. */
+  extraSeatPrice?: number;
   aiJobs: string;
   featured?: boolean;
   highlights: string[];
@@ -71,7 +73,8 @@ export const plans: Plan[] = [
     name: "Growth",
     price: 149,
     tagline: "For growing crews that need dispatch and collections on autopilot.",
-    seats: "8 seats",
+    seats: "8 seats included",
+    extraSeatPrice: 25,
     aiJobs: "300 AI jobs / month",
     featured: true,
     highlights: [
@@ -87,7 +90,8 @@ export const plans: Plan[] = [
     name: "Scale",
     price: 349,
     tagline: "For multi-crew operations running at volume.",
-    seats: "Unlimited seats",
+    seats: "20 seats included",
+    extraSeatPrice: 20,
     aiJobs: "1,500 AI jobs / month",
     highlights: [
       "Everything in Growth",
@@ -119,6 +123,10 @@ export const faqs = [
   {
     q: "What about SMS compliance?",
     a: "TradeHound is built for US A2P 10DLC. Client SMS consent is captured and timestamped, every message carries an opt-out footer, and inbound STOP / HELP keywords are handled and logged automatically. On Scale we help you through brand and campaign registration.",
+  },
+  {
+    q: "What happens when my team outgrows the included seats?",
+    a: "On Growth and Scale you add seats one at a time — $25 per month each on Growth, $20 on Scale — billed monthly alongside your plan. Solo includes up to 2 seats; past that, move up to Growth.",
   },
   {
     q: "Is there a free trial?",

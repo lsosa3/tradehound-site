@@ -23,11 +23,12 @@ export default function HomePage() {
           <div className="mx-auto max-w-2xl text-center">
             <Eyebrow>Pricing</Eyebrow>
             <h2 className="display-lg mt-3 text-ink">
-              Flat monthly price. Every feature in every plan.
+              Simple monthly price. Add seats as you grow.
             </h2>
             <p className="mx-auto mt-4 max-w-lg text-lg leading-relaxed text-body">
-              Plans differ only by seats and monthly AI job volume. No
-              per-invoice fees from us — payment processing is billed by Stripe.
+              Every plan includes the core workflow. Pick by crew size and
+              monthly AI job volume. No per-invoice fees from us — payment
+              processing is billed by Stripe.
             </p>
           </div>
           <div className="mt-14">

@@ -23,7 +23,7 @@ export default function TermsPage() {
       <ul>
         <li>You must provide accurate registration information, including a valid business identity.</li>
         <li>You are responsible for your users, their actions, and keeping credentials secure.</li>
-        <li>Each plan includes a fixed number of seats; adding users beyond that limit requires an upgrade.</li>
+        <li>Each plan includes a fixed number of seats. On plans that offer additional seats, users beyond the included number are billed monthly at the then-current per-seat rate; on other plans, adding users beyond the limit requires an upgrade.</li>
       </ul>
 
       <h2>3. Trial and subscription</h2>

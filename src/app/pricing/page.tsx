@@ -10,7 +10,7 @@ import { plans } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Pricing",
   description:
-    "Simple flat monthly pricing for TradeHound. Every plan includes AI job reports, dispatch, invoicing, and automatic collections — plans differ only by seats and AI job volume.",
+    "Simple monthly pricing for TradeHound. Every plan includes AI job reports, dispatch, invoicing, and automatic collections. Plans include a set number of seats, and Growth and Scale let you add more as your team grows.",
 };
 
 const matrix: { label: string; values: [boolean, boolean, boolean] | [string, string, string] }[] = [
@@ -25,7 +25,8 @@ const matrix: { label: string; values: [boolean, boolean, boolean] | [string, st
   { label: "Role-based access control", values: [false, true, true] },
   { label: "Priority AI processing", values: [false, false, true] },
   { label: "A2P 10DLC onboarding assistance", values: [false, false, true] },
-  { label: "Included seats", values: ["2", "8", "Unlimited"] },
+  { label: "Included seats", values: ["2", "8", "20"] },
+  { label: "Additional seats", values: ["—", "$25/mo each", "$20/mo each"] },
   { label: "AI jobs per month", values: ["50", "300", "1,500"] },
 ];
 
@@ -34,8 +35,8 @@ export default function PricingPage() {
     <>
       <PageHero
         eyebrow="Pricing"
-        title="Flat monthly price. No per-invoice fees."
-        intro="Every plan has every core feature. You choose based on how many people are on the account and how many jobs run through the AI each month. 14-day free trial, no credit card."
+        title="Simple monthly price. No per-invoice fees."
+        intro="Every plan has every core feature. Pick the plan that fits your crew and your monthly AI job volume, then add seats as you hire. 14-day free trial, no credit card."
       />
 
       <Section>

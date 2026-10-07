@@ -75,6 +75,16 @@ export function PricingTiers() {
               </span>
               <span>{plan.aiJobs}</span>
             </div>
+            <p
+              className={cn(
+                "mt-1.5 text-[12.5px]",
+                featured ? "text-on-dark-soft" : "text-muted",
+              )}
+            >
+              {plan.extraSeatPrice
+                ? `+$${plan.extraSeatPrice}/mo per extra seat`
+                : "Upgrade to Growth for more seats"}
+            </p>
 
             <Button
               href={APP_URL}
