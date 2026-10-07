@@ -3,6 +3,8 @@ import { Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { SiteHeader } from "@/components/site/site-header";
 import { SiteFooter } from "@/components/site/site-footer";
+import { Analytics } from "@/components/site/analytics";
+import { CookieBanner } from "@/components/site/cookie-banner";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -74,6 +76,8 @@ export default function RootLayout({
         <SiteHeader />
         <main id="main">{children}</main>
         <SiteFooter />
+        <CookieBanner />
+        <Analytics />
       </body>
     </html>
   );

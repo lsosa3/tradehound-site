@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Logo } from "./logo";
+import { CookieSettingsButton } from "./cookie-banner";
 import { Container } from "@/components/ui/layout";
 import { footerNav, CONTACT_EMAIL } from "@/lib/site";
 
@@ -52,7 +53,10 @@ export function SiteFooter() {
         </div>
 
         <div className="mt-14 flex flex-col gap-4 border-t border-hairline pt-8 text-[13px] text-muted sm:flex-row sm:items-center sm:justify-between">
-          <p>© {year} TradeHound. All rights reserved.</p>
+          <p>
+            © {year} TradeHound. All rights reserved.
+            <CookieSettingsButton className="ml-4 hover:text-ink hover:underline" />
+          </p>
           <p>
             Built for the trades. Not affiliated with any equipment manufacturer.
           </p>
