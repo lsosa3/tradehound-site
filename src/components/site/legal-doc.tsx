@@ -31,11 +31,11 @@ export function LegalDoc({
             [&_strong]:text-ink
           "
         >
-          <div className="rounded-lg border border-hairline-strong bg-surface-strong/60 p-4 text-[13px] leading-relaxed text-body">
+          {/* <div className="rounded-lg border border-hairline-strong bg-surface-strong/60 p-4 text-[13px] leading-relaxed text-body">
             This document is a starting template for TradeHound and is not legal
             advice. Have counsel review and adapt it before you rely on it in
             production.
-          </div>
+          </div> */}
           {children}
         </div>
       </Container>

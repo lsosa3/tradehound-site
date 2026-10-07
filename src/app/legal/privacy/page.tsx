@@ -13,8 +13,8 @@ export default function PrivacyPage() {
       <h2>1. Who we are</h2>
       <p>
         TradeHound (&ldquo;TradeHound,&rdquo; &ldquo;we,&rdquo; &ldquo;us&rdquo;)
-        provides field service management software to trade and repair
-        businesses. This policy explains what we collect and why. It covers our
+        provides field service management software to trade and repair businesses. 
+        This Privacy Policy is operated by <i> Bridgeview Group LLC </i> (referred to as &ldquo;we,&rdquo; &ldquo;us&rdquo;), registered in New Mexico. This policy explains what we collect and why. It covers our
         marketing site and the TradeHound application.
       </p>
 
@@ -89,6 +89,9 @@ export default function PrivacyPage() {
         to certain processing. Because we process most personal data on behalf of
         the business that uploaded it, we will refer consumer requests to that
         business and assist them in responding.
+      </p>
+      <p>
+        If you are a resident of California, you may have specific rights regarding your personal information under the California Consumer Privacy Act (CCPA), including the right to request access to or deletion of your data. Because we operate primarily as a service provider to businesses, we will direct your request to the respective business entity.
       </p>
 
       <h2>8. Children</h2>

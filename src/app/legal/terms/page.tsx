@@ -13,8 +13,9 @@ export default function TermsPage() {
       <h2>1. Agreement</h2>
       <p>
         These Terms govern your access to and use of TradeHound&rsquo;s software
-        and websites (the &ldquo;Service&rdquo;). By creating an account or using
-        the Service you agree to these Terms on behalf of your business
+        and websites (the &ldquo;Service&rdquo;), provided and operated by 
+        <i> Bridgeview Group LLC </i> (&ldquo;TradeHound,&rdquo; &ldquo;we,&rdquo; &ldquo;us&rdquo;). 
+        By creating an account or using the Service you agree to these Terms on behalf of your business
         (&ldquo;you&rdquo;).
       </p>
 
@@ -86,8 +87,8 @@ export default function TermsPage() {
 
       <h2>10. Disclaimers and liability</h2>
       <p>
-        The Service is provided &ldquo;as is&rdquo; without warranties of any
-        kind to the maximum extent permitted by law. To the extent permitted by
+        <span className="uppercase"> The Service is provided &ldquo;as is&rdquo; without warranties of any
+        kind to the maximum extent permitted by law</span>. To the extent permitted by
         law, TradeHound&rsquo;s total liability arising out of or related to the
         Service is limited to the amount you paid in the 12 months before the
         claim, and we are not liable for indirect, incidental, or consequential
